@@ -13,11 +13,9 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-
-
-line.bot:
-  channel-token: '3XntBrtJf4XxsIaVOhwvp8ouL1NNx5nsPVpGvBeXHejuxSHsK5JebGwrUanA7lae/IAmqLq3VOqmg0mH31bmf/DMHMl+CCzmnVP2WAKBEdv3oHFM/i2VKzRcd92V+TSOVq1OszP4KuvPWVynp3M4ngdB04t89/1O/w1cDnyilFU='
-  channel-secret: 'b9e7660a9ad791202a9cbdb34ae9ea58'
+line.bot: 
+  channel-token: q4IC/a75Igx0QtNZBsUR1xfde3KXdmVYx96CKVRnGBBl6VVlqRGGY4Kb7R5d64ZCHdg/duPWTZov8bGTPHpuSYeCTCPfxUASGTn8VASESgY/N+iMOPTMZyu9p3sZ21Z8V3JEiJFcXcJSSBtfhNHMmAdB04t89/1O/w1cDnyilFU=
+  channel-secret: 5e1400baee7474b6fa1ba158171b8795
   handler.path: /callback
 
 # To remove Client wire logs. Please comment out following lines.
@@ -25,3 +23,4 @@ line.bot:
 #
 #logging.level:
 #   com.linecorp.bot.client.wire: INFO
+

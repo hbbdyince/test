@@ -18,8 +18,6 @@ dependencies {
     compile project(':line-bot-api-client')
     compile 'com.fasterxml.jackson.core:jackson-databind'
     compile 'com.google.guava:guava'
-
-    optional 'javax.servlet:javax.servlet-api'
-    optional 'org.slf4j:slf4j-api'
-	compile group: 'javax.servlet', name: 'servlet-api', version:'2.4'
+    compile 'javax.servlet:javax.servlet-api'
+    compile 'org.slf4j:slf4j-api'
 }
